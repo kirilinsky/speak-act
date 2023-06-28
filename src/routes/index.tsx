@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import { ButtonComponent } from '~/components/ui/button';
  
  
 export default component$(() => {
@@ -12,8 +13,9 @@ export default component$(() => {
 
       <div class="container container-center container-spacing-xl">
         <h3>
-          speak & act
+          speak & act 
         </h3> 
+         <ButtonComponent/>
       </div>
  
     </>
