@@ -1,11 +1,16 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-  
+import { StyledSpan } from './styles.css';
+
+
  
 export default component$(() => {
+
+    
   return (
-    <>
-        tasks here 
+    <> 
+    <StyledSpan  > tasks here </StyledSpan>
+       
     </>
   );
 });
