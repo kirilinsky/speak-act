@@ -1,9 +1,6 @@
 {
   "name": "my-qwik-basic-starter",
   "description": "App with Routing built-in (recommended)",
-  "engines": {
-    "node": ">=15.0.0"
-  },
   "private": true,
   "scripts": {
     "build": "qwik build",
@@ -21,24 +18,24 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.0.0",
-    "@builder.io/qwik-city": "~1.0.0",
+    "@builder.io/qwik": "^1.19.2",
+    "@builder.io/qwik-city": "^1.19.2",
     "@types/eslint": "8.37.0",
-    "@types/node": "^18.16.0",
+    "@types/node": "^18.19.130",
     "@typescript-eslint/eslint-plugin": "5.59.1",
     "@typescript-eslint/parser": "5.59.1",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.23",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
     "prettier": "2.8.8",
     "typescript": "5.0.4",
-    "undici": "5.22.0",
-    "vercel": "^28.19.0",
-    "vite": "4.3.2",
+    "undici": "^8.2.0",
+    "vercel": "^28.20.0",
+    "vite": "^8.0.10",
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "@vanilla-extract/css": "^1.11.1",
-    "sass": "^1.63.6",
-    "styled-vanilla-extract": "^0.5.4"
+    "@vanilla-extract/css": "^1.20.1",
+    "sass": "^1.99.0",
+    "styled-vanilla-extract": "^0.5.13"
   }
 }
